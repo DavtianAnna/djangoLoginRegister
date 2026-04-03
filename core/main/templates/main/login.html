@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Login Page{% endblock %}
+{% block page_name %}Login Page{% endblock %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <p>
+        <input type="text" name ="username" placeholder="Enter Username", id ="">
+    </p>
+    <p>
+        <input type="password" name ="password" placeholder="Enter Password", id ="">
+    </p>
+    <button class="btn btn-primary" type="submit">Login</button>
+    <p>Don't have an account yet? <a href="{% url 'register' %}">Register here</a></p></form>
+{% endblock %}
