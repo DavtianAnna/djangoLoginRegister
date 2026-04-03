@@ -2,6 +2,9 @@
 
 A simple Django application implementing user authentication with **login**, **registration**, and **admin panel** features. Designed with a modern dark theme and flash messages.
 
+<img width="841" height="726" alt="image" src="https://github.com/user-attachments/assets/46510037-e1b9-4918-b988-d14407e1f4c3" />
+
+
 ## Features
 
 - User registration with email and password
