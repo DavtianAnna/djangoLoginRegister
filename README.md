@@ -17,7 +17,7 @@ A simple Django application implementing user authentication with **login**, **r
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/djangoLoginRegister.git
+git clone https://github.com/DavtianAnna/djangoLoginRegister.git
 cd djangoLoginRegister
 ```
 ### 2. Create & Activate Virtual Environment
